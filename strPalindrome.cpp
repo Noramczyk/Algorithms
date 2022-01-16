@@ -19,8 +19,9 @@ string Palindrome(string S)
 
 int main()
 {
-	string S = "ABCDCBA";
+	string S = "ABBA";
 	cout << Palindrome(S);
+	cout << endl;
 
 	return 0;
 }

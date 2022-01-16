@@ -13,12 +13,14 @@ int remove(int arr[], int n)
 	int j;
 		for(j = 0; j < i; j++)
 		{
+			//cout << "i: " << i << " j: " << j << endl;
 			if(arr[i] == arr[j])
 				break;
 		}
 
 			if(j == i)
 			{
+				//cout << "i: " << i << "j: " << j << endl;
 				arr[index++] = arr[i];
 				cout <<"Index: " << index << endl;
 			}

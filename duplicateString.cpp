@@ -6,8 +6,8 @@ int main()
 {
 	int i, j;
 
-	char *str = "Jacobians";
-	//string = "Jacobians;
+	char *str = "Jacobiansassaaa";
+	
 
 	cout << "Duplicate letters: " << endl;
 	
@@ -22,6 +22,8 @@ int main()
 			}
 		}
 	}
+
+
 return 0;
 }
 	
